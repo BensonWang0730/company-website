@@ -18,10 +18,10 @@ window.addEventListener('scroll',windowScroll);
 function windowScroll(){
     if(lastScrollY<window.scrollY){
         topbar.classList.add("topbar-hidden");
-        console.log('向下');
+        //console.log('向下');
     }else{
         topbar.classList.remove("topbar-hidden");
-        console.log('向上');
+        //console.log('向上');
     }
     //滾動畫面後，再重新給一次 Y
     lastScrollY = window.scrollY;

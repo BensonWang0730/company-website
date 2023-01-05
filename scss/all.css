@@ -177,35 +177,45 @@ p {
 
 .wrap .blackground {
   width: 100%;
-  height: 500px;
+  height: 750px;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-color: rgb(22, 22, 22);
-  margin-bottom: 60px;
+  margin-bottom: 100px;
   position: relative;
-  line-height: 2.25rem;
 }
 .wrap .blackground h1 {
   position: absolute;
-  left: 15%;
-  bottom: 15%;
+  right: 25%;
+  bottom: 8%;
 }
 .wrap .blackground h1 a {
-  font-size: 2rem;
+  font-size: 2.25rem;
+  line-height: 4rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.wrap .blackground h1 a div {
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
 }
 .wrap .title {
   text-align: center;
-  font-size: 1.75rem;
-  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 40px;
 }
 .wrap .bedAdvantage {
   display: flex;
   justify-content: space-between;
 }
 .wrap .bedAdvantage .bedAdvantage-img {
-  max-height: 150px;
+  height: 350px;
+  width: 300px;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 15px;
+  border-radius: 25px;
   margin-bottom: 10px;
 }
 .wrap .bedAdvantage .bedAdvantage-text {
@@ -218,4 +228,15 @@ p {
     flex-direction: column;
     align-items: center;
   }
+}
+
+.contactus {
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 100px;
+}
+.contactus div {
+  color: white;
 }/*# sourceMappingURL=all.css.map */
